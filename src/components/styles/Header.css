@@ -1,0 +1,84 @@
+.header {
+    position: absolute;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+.logo h1 {
+    color: rgba(255, 255, 255, 0.329);
+    user-select: none;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+}
+
+.number span {
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: #fff;
+    margin-right: 1.5rem;
+}
+
+.number p {
+    color: #fff;
+}
+
+.right{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right .shopping-cart {
+    font-size: 35px;
+    margin-right: 1rem;
+}
+
+.right .menu-icon {
+    font-size: 45px;
+}
+
+.slider {
+    width: 25%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #000;
+    right: -100%;
+    transition: 1s ease;
+}
+
+
+.slider.active {
+    right: 0;
+    transition: 1s ease;
+}
+
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    height: 100px;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    font-size: 20px;
+}
+

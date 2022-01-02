@@ -1,0 +1,31 @@
+.footer {
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(31,25,25);
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+.footer-text {
+    display: grid;
+    place-items: center;
+    margin-top: 2rem;
+
+}
+
+.footer-text h1 {
+    color: #fff;
+    font-size: 65px;
+}
+
+.footer-text p {
+    color: #fff;
+}
+
+.icons {
+    color: #fff;
+}
+.icons .icon {
+    font-size: 50px;
+    margin: 3rem;
+}

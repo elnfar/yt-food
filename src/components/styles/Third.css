@@ -1,0 +1,73 @@
+.third {
+    width: 100%;
+    height: 100vh;
+    background: rgb(24,21,21);
+    border: 7px solid #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.test-h1 {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1.5rem;
+    margin-top: 1rem;
+    padding: 10px;
+}
+.test {
+    padding: 10px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    color: #fff;
+}
+
+.test:hover {
+    transform: scale(105%);
+    transition: 1s ease;
+}
+
+.test-0 {
+    line-height: 25px;
+    padding: 20px;
+    grid-column: span 2;
+    background: purple;
+}
+.test-0 p {
+    margin-top: 1rem;
+}
+
+.test-2 {
+    grid-row-end: span 2;
+    font-size: 15px;
+    line-height: 25px;
+    background: gray;
+}
+.test-2 p {
+    margin-top: 1rem;
+}
+
+.test:last-child {
+    grid-column-end: span 2;
+}
+.test:last-child p {
+    margin-top: 1rem;
+}
+
+.test-sm {
+    background: rgb(82, 82, 255);
+    font-size: 15px;
+}
+.test-sm p {
+    margin-top: 1rem;
+}
+
+.test-long {
+    background: brown;
+}
